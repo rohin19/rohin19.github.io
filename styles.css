@@ -86,7 +86,7 @@
 /* Homepage Section */
 
 .home {
-    padding: 120px 0;
+    padding: 250px 0;
     /* placeholders */
     background: black;
 }
@@ -139,7 +139,7 @@
 
 .about {
     background: rgb(54, 54, 54);
-    padding: 100px 0;
+    padding: 200px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -267,4 +267,99 @@
     transform: scale(1.075);
     cursor: pointer;
     transition: 0.3s ease-in;
+}
+
+/* Contact Page */
+
+.contact {
+    background: rgb(118, 118, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+.contact h1 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+.contact h3 {
+    color: white;
+    margin-bottom: 5rem;
+    font-size: 1.1rem;
+}
+.contact_card {
+    margin: 10px;
+    height: 325px;
+    width: 400px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 1px solid black;
+}
+.contact_card h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact_card p {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 16px;
+}
+.contact_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.contact_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.contact_form_fields {
+    display: flex;
+    gap: 15px;
+}
+.contact_input input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contact_form_fields input {
+    flex: 1;
+}
+#input_message {
+    height: 10rem;
+}
+.contact_btn {
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+}
+.form_btn {
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    background: red;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.form_btn:hover {
+    background: darkred;
 }
