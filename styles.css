@@ -363,3 +363,130 @@
 .form_btn:hover {
     background: darkred;
 }
+
+/* Footer Section */
+/* .footer_container {
+    background-color: #7f7f7f;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+#footer_logo {
+    placeholder
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+  
+.footer_links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+  
+.footer_link_wrapper {
+    display: flex;
+}
+  
+.footer_link_items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+.footer_link_items h2 {
+    margin-bottom: 16px;
+    color: #fff;
+}
+ 
+.social_icon_link {
+    color: #fff;
+    font-size: 24px;
+}
+  
+.social_media {
+    max-width: 1000px;
+    width: 100%;
+}
+.social_media_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+.social_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+} */
+
+  /* Footer Section */
+.footer_container {
+    background-color: #7f7f7f;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navigation links (Home, About, Projects, Contact) */
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 525px;
+    margin-bottom: 75px;
+}
+.footer_link_items h2 {
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Footer bottom row (Logo on left, icons on right) */
+.social_media {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.social_media_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo */
+#footer_logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Social Icons */
+.social_icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social_icon_link {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
