@@ -162,6 +162,16 @@
 .main_btn:hover {
     background-color: rgb(184, 1, 1);
 }
+.home_icons {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    color: white;
+    margin: 20px 5%;
+}
+.home_icons i{
+    font-size: 3em;
+}
 
 /* About Page */
 
@@ -197,6 +207,7 @@
     font-size: 12px;
     font-weight: 550;
     color: rgb(122, 122, 122);
+    margin-top: 5px;
 }
 .about_description {
     font-size: 20px;
@@ -344,6 +355,13 @@
     margin-left: 15%;
     font-size: 16px;
 }
+.contact_card i {
+    margin: 0 10px;
+}
+.contact_card a {
+    text-decoration: none;
+    color: white;
+}
 .contact_wrapper {
     display: flex;
     justify-content: center;
@@ -395,6 +413,9 @@
 .form_btn:hover {
     background: darkred;
 }
+
+/* Footer Section */
+
 .footer_container {
     background-color: #7f7f7f;
     padding: 5rem 0;
@@ -419,7 +440,7 @@
 }
 .social_media {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 .social_media_wrap {
     display: flex;
@@ -431,14 +452,13 @@
     color: #ffffff;
     font-size: 1.5rem;
     text-decoration: none;
-    font-weight: bold;
+    font-weight:600;
 }
 .social_icons {
     display: flex;
-    gap: 15px;
+    gap: 50px;
 }
 .social_icon_link {
     color: #fff;
-    font-size: 24px;
-    text-decoration: none;
+    font-size: 2em;
 }
