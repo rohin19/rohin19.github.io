@@ -10,7 +10,7 @@
     <!-- Navbar Section -->
      <nav class="navbar">
         <div class="navbar_container">
-            <a href="#" id="navbar_logo">ROHINAULAKH</a>
+            <a href="#home" id="navbar_logo">ROHINAULAKH</a>
             <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -36,15 +36,19 @@
      <!-- Home Page -->
      <div class="home" id="home">
         <div class="home_container">
-            <h1 class="home_heading">Hi, I'm <span>Rohin Aulakh.</span></h1>
-            <h3 class="home_subheading">Computing Science Student</h3>
-            <p class="home_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Distinctio pariatur voluptatibus esse quaerat nesciunt illo nobis, iusto iure at, aspernatur praesentium quas sint possimus accusamus eum ipsa. Autem, libero nulla.</p>
-            <div class="home_buttons">
-                <button class="main_btn">Get in Touch</button>
-                <button class="main_btn">Download CV</button>
+            <!-- Text Content -->
+            <div class="home_text">
+                <h1 class="home_heading">Hi, I'm <span>Rohin Aulakh.</span></h1>
+                <h3 class="home_subheading">Computing Science Student</h3>
+                <p class="home_description">I'm a second-year student with a passion for problem-solving,
+                     algorithms, and software development. Always aiming to learn and build new projects!</p>
+                <div class="home_buttons">
+                    <button class="main_btn">Get in Touch</button>
+                    <button class="main_btn">Download CV</button>
+                </div>
             </div>
-            <!-- icons and images go here -->
+            <!-- Profile Picture -->
+            <image class="home_image" src="images/photome.jpg" alt="Profile Picture"></image>
         </div>
      </div>
 
@@ -52,21 +56,33 @@
      <div class="about" id="about">
         <div class="main_container">
             <h3 class="about_heading">About Me</h1>
-            <p class="about_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Distinctio pariatur voluptatibus esse quaerat nesciunt illo nobis, iusto iure at, aspernatur praesentium quas sint possimus accusamus eum ipsa. Autem, libero nulla.</p>
-            <!-- icons and images go here -->
+            <h5 class="about_subheading">PAST</h5>
+            <p class="about_description">Growing up, my passion towards arts, science
+                and hockey molded my personality and skillset. Hockey instilled leadership
+                values, teamwork and discipline; whereas arts and science encouraged me to venture towards
+                creativity. Combined, a drive towards growth and problem solving was developed.</p>
+            <h5 class="about_subheading">PRESENT</h5>
+            <p class="about_description">As a student, I am always challenging myself and finding ways
+                to learn and push my boundaries. Right now I'm focused on deeping my understand of concepts
+                through real-world projects.</p>
+            <h5 class="about_subheading">FUTURE</h5>
+            <p class="about_description">Looking ahead, I aim to meticulously work on my skills and
+                 dive deeper into an expansive selection of interesting topics. My goal
+                  is to work on impactful projects that make real contributions towards society.
+                  Whether it's through internships, research, personal projects, or open-source
+                  contributions, I am thoroughly excited for what is to come.</p>
         </div>
         <div class="main_container">
-            <h3 class="skills_heading">Skills</h1>
-            <p class="skills_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Distinctio pariatur voluptatibus esse quaerat nesciunt illo nobis, iusto iure at, aspernatur praesentium quas sint possimus accusamus eum ipsa. Autem, libero nulla.</p>
-            <!-- icons and images go here -->
-        </div>
-        <div class="main_container">
-            <h3 class="education_heading">Education</h1>
-            <p class="education_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Distinctio pariatur voluptatibus esse quaerat nesciunt illo nobis, iusto iure at, aspernatur praesentium quas sint possimus accusamus eum ipsa. Autem, libero nulla.</p>
-            <!-- icons and images go here -->
+            <h1 class="skills_heading">Skills</h1>
+            <div class="skills_list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>C++</span>
+                <span>C</span>
+                <span>Python</span>
+                <!-- <span>Git</span> -->
+            </div>
         </div>
      </div>
 
@@ -96,7 +112,7 @@
             <div class="contact_card">
                 <h2>Reach Out</h2>
                 <p>(icon) Email: rohinaulakh@gmail.com</p>
-                <p>(icon) Phone: 1+ 778-513-9586</p>
+                <p>(icon) Phone: (778)-513-9586</p>
             </div>
             <!-- Right Side: Contact Form -->
             <div class="contact_form">
@@ -119,10 +135,12 @@
     <div class="footer_container">
         <!-- Main links -->
         <div class="footer_links">
-            <div class="footer_link_items"><h2>Home</h2></div>
-            <div class="footer_link_items"><h2>About</h2></div>
-            <div class="footer_link_items"><h2>Projects</h2></div>
-            <div class="footer_link_items"><h2>Contact</h2></div>
+            <div class="footer_link_items">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
         <!-- Bottom links -->
         <div class="social_media">
