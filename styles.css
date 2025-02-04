@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* placeholder */
     font-family: Kumbh Sans, sans-serif;
     scroll-behavior: smooth;
 }
@@ -66,6 +65,11 @@ body {
     width: 125px;
     height: 100%;
     font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+.navbar_links:hover {
+    color: #90fa7d;
+    transition: all 0.3s ease-in-out;
 }
 .navbar_btn {
    display: flex;
@@ -113,17 +117,16 @@ body {
     opacity: 1;
     right: 0;
 }
-
-.navbar_links:hover {
-    color: #90fa7d;
-    transition: all 0.3s ease;
+.highlight {
+    border-bottom: 2px solid #90fa7d;
+    border-radius: 1px;
 }
 
 /* Homepage Section */
 
 .home {
-    padding: 8rem 0;
-    /* placeholders */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background: #101010;
 }
 .home_container {
@@ -172,8 +175,8 @@ body {
     width: 40%;
 }
 .home_image {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center 20%;
@@ -321,7 +324,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 5rem 0;
+    padding: 180px 0;
     
 }
 .projects h1 {
@@ -386,7 +389,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 7rem 0;
+    padding-top: 150px;
+    padding-bottom: 110px;
 }
 .contact h1 {
     color: white;
@@ -464,6 +468,7 @@ body {
 .contact_form_fields {
     display: flex;
     gap: 15px;
+    margin-right: -15px;
 }
 .contact_input input {
     width: 100%;
@@ -471,6 +476,8 @@ body {
     border: none;
     border-radius: 9px;
     font-size: 16px;
+    /* flex: 1; */
+    /* min-width: 0; */
 }
 .contact_form_fields input {
     flex: 1;
@@ -558,11 +565,6 @@ body {
     max-width: 1200px;
     margin-bottom: 20px;
 }
-/* .footer_text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} */
 .footer_text h2 {
     text-align: center;
     justify-content: center;
@@ -573,6 +575,7 @@ body {
 .footer_link_items {
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 .footer_link_items a {
     color: #7f8188;
@@ -584,9 +587,6 @@ body {
 .footer_link_items a:hover {
     transition: 0.3s;
     color: white;
-}
-.footer_link_items {
-    margin-right: 60px;
 }
 .social_media {
     width: 90%;
@@ -616,4 +616,14 @@ body {
 #footer_logo:hover {
     color: white;
     transition: 0.5s;
+}
+html {
+    scroll-behavior: smooth;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+.fade-in.visible {
+    opacity: 1;
 }

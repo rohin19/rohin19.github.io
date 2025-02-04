@@ -59,7 +59,7 @@
      </div>
 
      <!-- About Page -->
-     <div class="about" id="about">
+     <div class="fade-in about" id="about">
         <div class="main_container">
             <h3 class="about_heading">About Me</h1>
             <h5 class="about_subheading">PAST</h5>
@@ -92,7 +92,7 @@
      </div>
 
      <!-- Projects Page -->
-     <div class="projects" id="projects">
+     <div class="fade-in projects" id="projects">
         <h1>Projects</h1>
         <div class="projects_wrapper">
             <div class="projects_card">
@@ -109,7 +109,7 @@
      </div>
      
      <!-- Contact Page -->
-     <div class="contact" id="contact">
+     <div class="fade-in contact" id="contact">
         <h1>Get in Touch</h1>
         <h3>Send me a message or ask a question.</h3>
         <div class="contact_wrapper">
@@ -125,23 +125,28 @@
             </div>
             <!-- Right Side: Contact Form -->
             <div class="contact_form">
-                <div class="contact_input">
-                    <div class="contact_form_fields">
-                        <input type="text" id="input_name" placeholder="Name">
-                        <input type="text" id="input_email" placeholder="Email">
+                <form id="contact_form" action="https://formspree.io/f/xkgobdbo" method="POST" target="_blank">
+                    <div class="contact_input">
+                        <div class="contact_form_fields">
+                            <input type="text" id="input_name" name="name" placeholder="Name" required>
+                            <span class="error-message" id="nameError"></span>
+                            <input type="email" id="input_email" name="email" placeholder="Email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <input id="input_message" name="message" placeholder="Message"></input>
+                        <span class="error-message" id="messageError"></span>
                     </div>
-                    <input id="input_message" placeholder="Message"></input>
-                </div>
-                <div class="contact_btn">
-                    <button class="form_btn"><span>Submit </span></button>
-                </div>
+                    <div class="contact_btn">
+                        <button class="form_btn" type="submit"><span>Submit </span></button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 
     <!-- Footer Section -->
 
-    <div class="framer">
+    <div class="fade-in framer">
         <div class="footer_container">
             <!-- Main text -->
              <div class="footer_text_wrap">
@@ -173,5 +178,7 @@
         </div>
     </div>
 
+    <!-- Javascript -->
+    <script src="main.js"></script> 
 </body>
 </html>
