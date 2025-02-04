@@ -15,30 +15,28 @@
 </head>
 <body>
     <!-- Navbar Section -->
-     <nav class="navbar">
-        <div class="navbar_container">
-            <a href="#home" id="navbar_logo">ROHINAULAKH</a>
-            <div class="navbar_toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar_menu">
-                <li class="navbar_item">
-                    <a href="#about" class="navbar_links" id="about-page">About</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
-                </li>
-                <li class="navbar_btn">
-                    <a href="#resume" class="button" id="resume">Resume</a>
-                </li>
-            </ul>
+    <div class="navbar_container">
+        <a href="#home" id="navbar_logo">ROHINAULAKH</a>
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-     </nav>
+        <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="#about" class="navbar_links" id="about-page">About</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
+            </li>
+            <li class="navbar_btn">
+                <a href="#resume" class="button" id="resume">Resume</a>
+            </li>
+        </ul>
+    </div>
 
      <!-- Home Page -->
      <div class="home" id="home">
@@ -50,8 +48,7 @@
                 <p class="home_description">I'm a second-year student with a passion for problem-solving,
                      algorithms, and software development. Always aiming to learn and build new projects!</p>
                 <div class="home_buttons">
-                    <button class="main_btn">Get in Touch</button>
-                    <button class="main_btn">Download CV</button>
+                    <button class="main_btn"><a href="#contact"><span>Get in Touch </span></a></button>
                 </div>
             </div>
             <!-- Profile Picture -->
@@ -88,7 +85,6 @@
                 <span>C++</span>
                 <span>C</span>
                 <span>Python</span>
-                <!-- <span>Git</span> -->
             </div>
         </div>
      </div>
@@ -135,7 +131,7 @@
                     <input id="input_message" placeholder="Message"></input>
                 </div>
                 <div class="contact_btn">
-                    <button class="form_btn">Submit</button>
+                    <button class="form_btn"><span>Submit </span></button>
                 </div>
             </div>
         </div>
@@ -143,30 +139,37 @@
 
     <!-- Footer Section -->
 
-    <div class="footer_container">
-        <!-- Main links -->
-        <div class="footer_links">
-            <div class="footer_link_items">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+    <div class="framer">
+        <div class="footer_container">
+            <!-- Main text -->
+             <div class="footer_text_wrap">
+                <div class="footer_text">
+                    <h2>Thanks for checking out my profile! Here's some more of me &#128071</h2>
+                </div>
+             </div>
+            <!-- Bottom links -->
+            <div class="social_media">
+            <div class="social_media_wrap">
+                <div class="footer_logo">
+                <a href="#home" id="footer_logo">Rohin Aulakh.</a>
+                </div>
+                <div class="footer_links">
+                    <div class="footer_link_items">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <!-- Icons go here -->
+                <div class="social_icons">
+                    <a href="https://github.com/rohin19" target="_blank" class="social_icon_link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rohin-aulakh" target="_blank" class="social_icon_link"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
             </div>
         </div>
-        <!-- Bottom links -->
-        <div class="social_media">
-          <div class="social_media_wrap">
-            <div class="footer_logo">
-              <a href="#home" id="footer_logo">Rohin Aulakh.</a>
-            </div>
-            <!-- Icons go here -->
-            <div class="social_icons">
-                <a href="https://github.com/rohin19" target="_blank" class="social_icon_link"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/rohin-aulakh" target="_blank" class="social_icon_link"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
 
 </body>
 </html>
