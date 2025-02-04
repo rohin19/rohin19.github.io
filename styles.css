@@ -90,8 +90,30 @@ body {
     background: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
-    transition: all 0.3s ease;
+    transition: all 0.5s;
 }
+.button span {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+}
+.button span i {
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    right: -20px;
+    font-size: 0.9em;
+}
+.button:hover span {
+    padding-right: 20px;
+}
+.button:hover span i {
+    opacity: 1;
+    right: 0;
+}
+
 .navbar_links:hover {
     color: #90fa7d;
     transition: all 0.3s ease;
