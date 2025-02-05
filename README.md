@@ -13,7 +13,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **JavaScript** for interactivity  
 
 ## 📬 Contact  
-Feel free to reach out via the contact section.  
+Feel free to reach out using the contact section of the portfolio.
 
 ## 📌 License  
 This project is licensed under the [MIT License](LICENSE).  
