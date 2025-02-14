@@ -323,7 +323,7 @@ body {
 }
 .skills_list span:hover {
     transition: all 0.3s ease;
-    font-size: 1.7em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 .about .main_container:nth-child(2) {
