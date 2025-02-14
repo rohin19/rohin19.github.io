@@ -1,5 +1,6 @@
 const navLogo = document.querySelector('#navbar_logo');
 
+// Highlight navbar for each section
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const aboutMenu = document.querySelector('#about-page');
@@ -7,7 +8,8 @@ const highlightMenu = () => {
     const contactMenu = document.querySelector('#contact-page');
 
     let scrollPos = window.scrollY;
-    // console.log(scrollPos); to find positioning for breaks
+    // to find positioning for breaks
+    // console.log(scrollPos); 
 
     // adds the highlight class to my menu items
     // dont want highlighting on mobile and pos when it appears
@@ -88,6 +90,7 @@ document.getElementById('contact_form').addEventListener('submit', function (eve
     }
 });
 
+// Element fade in when scrolling
 const elements = document.querySelectorAll('.fade-in');
 
 const checkVisibility = () => {
