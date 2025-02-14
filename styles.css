@@ -145,7 +145,6 @@ body {
         max-width: 1250px;
     }
     .projects {
-        background: #101010;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -194,6 +193,8 @@ body {
     border-radius: 50%;
     object-fit: cover;
     object-position: center 20%;
+    border: 2px solid rgb(39, 39, 39);
+    box-shadow: 1px 3px 15px 5px rgb(32, 32, 32);
 }
 .main_btn {
     background-color: #1D976C; 
@@ -279,7 +280,7 @@ body {
     letter-spacing: 0.06em;
 }
 .about_description {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 24px;
     color: rgb(245, 245, 245);
 }
@@ -305,7 +306,7 @@ body {
 .skills_list span {
     font-size: 18px;
     background-color: rgb(40, 141, 187);
-    box-shadow: 1px 8px 10px 2px rgb(32, 32, 32);
+    /* box-shadow: 1px 8px 10px 2px rgb(32, 32, 32); */
     border-radius: 8px;
     color: white;
     padding: 10px 20px; 
@@ -317,6 +318,8 @@ body {
     min-width: 150px;
     min-height: 40px;
     transition: all 0.3s ease;
+    border: 1px solid rgb(39, 39, 39);
+
 }
 .skills_list span:hover {
     transition: all 0.3s ease;
@@ -325,6 +328,11 @@ body {
 }
 .about .main_container:nth-child(2) {
     margin-right: 200px;
+}
+@media (width <= 1460px) {
+    .about_description {
+        font-size: 16px;
+    }
 }
 
 /* Projects Page */
@@ -344,52 +352,68 @@ body {
     margin-bottom: 5rem;
     font-size: 2.5rem;
 }
+.projects_card {
+    background-color: rgb(30, 29, 28);
+    margin: 10px;
+    height: 120px;
+    width: 1000px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border: 1px solid rgb(39, 39, 39);
+    padding-left: 30px;
+
+}
 .projects_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
-.projects_card {
-    margin: 10px;
-    height: 425px;
-    width: 600px;
-    border-radius: 4px;
+.project_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
-    border: 1px solid black;
+    flex: 1;
 }
 .projects_card h2 {
-    text-align: center;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 .projects_card p {
-    text-align: center;
+    text-align: left;
     margin-top: 24px;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 1000;
+    margin: 0px;
+    color: rgb(122, 122, 122);
 }
-.projects_btn {
+.image_container {
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    margin-top: 15rem;
+    align-items: center;
 }
-.projects_card button {
-    color: white;
-    padding: 14px 24px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: rgb(58, 58, 58);
-    font-size: 1rem;
+.calc_image {
+    height: 120%;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 5px;
 }
-.projects_card button:hover {
+.card_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.projects_card {
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
 .projects_card:hover {
-    transform: scale(1.075);
-    cursor: pointer;
-    transition: 0.3s ease-in;
+    transform: scale(1.02);
 }
 
 /* Contact Page */
