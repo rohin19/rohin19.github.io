@@ -104,3 +104,10 @@ const checkVisibility = () => {
 
 window.addEventListener('scroll', checkVisibility);
 window.addEventListener('resize', checkVisibility);
+
+const hamburger = document.getElementById('hamburger');
+const navbarMenu = document.getElementById('navbar_menu');
+
+hamburger.addEventListener('click', () => {
+    navbarMenu.classList.toggle('active');
+});
