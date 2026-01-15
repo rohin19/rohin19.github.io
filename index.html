@@ -11,12 +11,12 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/9dff006e56.js" crossorigin="anonymous"></script>
-    <title>Rohin Aulakh</title>
+    <title>Rohin's Portfolio</title>
 </head>
 <body>
     <!-- Navbar Section -->
     <div class="navbar_container">
-        <a href="#home" id="navbar_logo">ROHINAULAKH</a>
+        <a href="#home" id="navbar_logo">RA</a>
         <div class="hamburger" id="hamburger">
             <span></span>
             <span></span>
@@ -29,11 +29,8 @@
             <li class="navbar_item">
                 <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
             </li>
-            <li class="navbar_item">
-                <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
-            </li>
             <li class="navbar_btn">
-                <a href="download_links/CS Resume Rohin Aulakh - Dec 2025.pdf" target="_blank" class="button" id="resume">
+                <a href="download_links/Rohin Aulakh CS Resume.pdf" target="_blank" class="button" id="resume">
                     <span>Resume <i class="fa-regular fa-file-lines"></i></span>
                 </a>
             </li>
@@ -45,12 +42,13 @@
         <div class="home_container">
             <!-- Text Content -->
             <div class="home_text">
-                <h1 class="home_heading">Hi, I'm <span>Rohin Aulakh.</span></h1>
-                <h3 class="home_subheading">Computing Science Student</h3>
-                <p class="home_description">I'm a second-year student with a passion for problem-solving,
+                <h1 class="home_heading"><span>Rohin Aulakh</span></h1>
+                <h3 class="home_subheading">SFU | Computing Science Student</h3>
+                <p class="home_description">I'm a third-year student with a passion for problem-solving,
                      algorithms, and software development. Always aiming to learn and build new projects!</p>
                 <div class="home_buttons">
-                    <button class="main_btn"><a href="#contact"><span>Get in Touch </span></a></button>
+                    <a href="https://github.com/rohin19" target="_blank" class="social_icon_link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rohin-aulakh" target="_blank" class="social_icon_link"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
             <!-- Profile Picture -->
@@ -59,7 +57,7 @@
      </div>
 
      <!-- About Page -->
-     <div class="fade-in about" id="about">
+     <div class="about" id="about">
         <div class="main_container">
             <h3 class="about_heading">About Me</h1>
             <h5 class="about_subheading">PAST</h5>
@@ -81,92 +79,135 @@
         <div class="main_container">
             <h1 class="skills_heading">Skills</h1>
             <div class="skills_list">
-                <span>C</span>
-                <span>C++</span>
-                <span>Python</span>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
+                <span><i class="fa-solid fa-code"></i> C</span>
+                <span><i class="fa-solid fa-code"></i> C++</span>
+                <span><i class="fa-brands fa-python"></i> Python</span>
+                <span><i class="fa-brands fa-html5"></i> HTML</span>
+                <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span><i class="fa-brands fa-kotlin"></i> Kotlin</span>
+                <span><i class="fa-brands fa-java"></i> Java</span>
+                <span><i class="fa-solid fa-code"></i> XML</span>
+                <span><i class="fa-brands fa-react"></i> ReactJS</span>
+                <span><i class="fa-solid fa-database"></i> MySQL</span>
+                <span><i class="fa-brands fa-ubuntu"></i> Unix</span>
+                <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span><i class="fa-brands fa-docker"></i> Docker</span>
             </div>
         </div>
      </div>
 
      <!-- Projects Page -->
-     <div class="fade-in projects" id="projects">
+     <div class="projects" id="projects">
         <h1>Projects</h1>
         <div class="projects_wrapper">
-            <a href="https://github.com/rohin19/JS-Weather-App" target="_blank" class="card_link">
-                <div class="projects_card">
-                    <div class="project_text">
-                        <h2>Weather App</h2>
-                        <p>Live weather app utilizing api data to provide important data</p>
-                        <p>Languages: HTML, CSS, JavaScript</p>                    
+            <div class="projects_card">
+                <div class="image_container">
+                    <img class="calc_image" src="images/opencourt.png" alt="OpenCourt Project">
+                </div>
+                <div class="project_text">
+                    <div class="project_title_container">
+                        <h2>OpenCourt</h2>
+                        <div class="tags">
+                            <span class="tag">Dec 2023</span>
+                        </div>
                     </div>
-                    <div class="image_container">
-                        <img class="calc_image" src="images/weather.png" alt="Weather App Project"></img>
+                    <p>Real-time, crowd-sourced Android app for basketball/tennis court availability in Burnaby & Vancouver.</p>
+                    <p>Tech Stack: Kotlin, XML, Android SDK, Firebase Realtime DB, Google Maps SDK</p>
+                    <div class="project_links">
+                        <a href="https://github.com/Tanvir-SS/Group22_OpenCourt" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
-            </a>
-            <a href="https://github.com/rohin19/JS-Calculator" target="_blank" class="card_link">
-                <div class="projects_card">
-                    <div class="projects_text">
-                        <h2>Calculator</h2>
-                        <p>Comprehensive user calculator web app</p>
-                        <p>Languages: HTML, CSS, JavaScript</p>                    
+            </div>
+            <div class="projects_card">
+                <div class="image_container">
+                    <img class="calc_image" src="images/era.png" alt="ERA Project">
+                </div>
+                <div class="project_text">
+                    <div class="project_title_container">
+                        <h2>ERA - Clash Royale Live Model Detection</h2>
+                        <div class="tags">
+                            <span class="tag">Apr 2024</span>
+                        </div>
                     </div>
-                    <div class="image_container">
-                        <img class="calc_image" src="images/calculator.png" alt="Calculator Project"></img>
+                    <p>Live computer vision system to detect and track Clash Royale cards from live gameplay.</p>
+                    <p>Tech Stack: Python, YOLOv8, OpenCV, PyTorch</p>
+                    <div class="project_links">
+                        <a href="https://github.com/rohin19/ERA" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
-            </a>
+            </div>
+            <div class="projects_card">
+                <div class="image_container">
+                    <img class="calc_image" src="images/jackofalltravel.png" alt="Jack of All Travel Project">
+                </div>
+                <div class="project_text">
+                    <div class="project_title_container">
+                        <h2>Jack of All Travel</h2>
+                        <div class="tags">
+                            <span class="tag">Apr 2025</span>
+                        </div>
+                    </div>
+                    <p>Full-stack travel planning platform with shared itineraries, calendars, and map-based search for accommodations.</p>
+                    <p>Tech Stack: ReactJS, NodeJS, JavaScript, HTML, CSS, Google Maps API, Google Calendar API</p>
+                    <div class="project_links">
+                        <a href="https://github.com/CMPT-276-SPRING-2025/final-project-16-moons" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects_card">
+                <div class="image_container">
+                    <img class="calc_image" src="images/unixshell.png" alt="Unix Shell Project">
+                </div>
+                <div class="project_text">
+                    <div class="project_title_container">
+                        <h2>Unix Shell</h2>
+                        <div class="tags">
+                            <span class="tag">Apr 2024</span>
+                        </div>
+                    </div>
+                    <p>Unix-like shell implementing internal commands, foreground/background execution, and process/signal management.</p>
+                    <p>Tech Stack: C, POSIX, UNIX, CMake</p>
+                    <div class="project_links">
+                        <a href="https://github.com/rohin19/Unix-Shell" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects_card">
+                <div class="image_container">
+                    <img class="calc_image" src="images/leftoverlove.png" alt="Leftover Love Project">
+                </div>
+                <div class="project_text">
+                    <div class="project_title_container">
+                        <h2>Leftover Love</h2>
+                        <div class="tags">
+                            <span class="tag">Mar 2023</span>
+                            <span class="tag">Hackathon</span>
+                        </div>
+                    </div>
+                    <p>Full-stack web app connecting local charities and restaurants to reduce food waste.</p>
+                    <p>Tech Stack: ReactJS, NodeJS, JavaScript, CSS, HTML, REST API</p>
+                    <div class="project_links">
+                        <a href="https://github.com/kendymann/leftover-love" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
      </div>
      
-     <!-- Contact Page -->
-     <div class="fade-in contact" id="contact">
-        <h1>Get in Touch</h1>
-        <h3>Send me a message or ask a question.</h3>
-        <div class="contact_wrapper">
-            <!-- Reach Out Card -->
-            <div class="contact_card">
-                <h2>Reach Out</h2>
-                <p><i class="fa-solid fa-envelope"></i>
-                    Email: 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rohinaulakh@gmail.com" target="_blank">
-                    rohinaulakh@gmail.com</a>
-                </p>
-                <p><i class="fa-solid fa-phone"></i> Phone: (778)-513-9586</p>
-            </div>
-            <!-- Contact Form -->
-            <div class="contact_form">
-                <form id="contact_form" action="https://formspree.io/f/xkgobdbo" method="POST" target="_blank">
-                    <div class="contact_input">
-                        <div class="contact_form_fields">
-                            <input type="text" id="input_name" name="name" placeholder="Name" required>
-                            <span class="error-message" id="nameError"></span>
-                            <input type="email" id="input_email" name="email" placeholder="Email" required>
-                            <span class="error-message" id="emailError"></span>
-                        </div>
-                        <textarea id="input_message" name="message" placeholder="Message"></textarea>
-                        <span class="error-message" id="messageError"></span>
-                    </div>
-                    <div class="contact_btn">
-                        <button class="form_btn" type="submit"><span>Submit </span></button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer Section -->
-    <div class="fade-in framer">
+    <div class="framer">
         <div class="footer_container">
-            <!-- Main text -->
-             <div class="footer_text_wrap">
-                <div class="footer_text">
-                    <h2>Thanks for checking out my profile! Here's some more of me &#128071</h2>
-                </div>
-             </div>
             <!-- Bottom links -->
             <div class="social_media">
             <div class="social_media_wrap">
@@ -178,7 +219,6 @@
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
                         <a href="#projects">Projects</a>
-                        <a href="#contact">Contact</a>
                     </div>
                 </div>
                 <!-- Icons -->

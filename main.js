@@ -95,14 +95,12 @@ const elements = document.querySelectorAll('.fade-in');
 
 const checkVisibility = () => {
     elements.forEach(el => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-            el.classList.add('visible');
-        }
+        el.classList.add('visible');
     });
 };
 
 window.addEventListener('scroll', checkVisibility);
+window.addEventListener('load', checkVisibility); // Also check on page load
 window.addEventListener('resize', checkVisibility);
 
 const hamburger = document.getElementById('hamburger');
