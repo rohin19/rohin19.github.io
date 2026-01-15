@@ -49,14 +49,14 @@ const highlightMenu = () => {
     const projectsSection = document.querySelector('.projects');
     
     // to find positioning for breaks
-    console.log({
-        scrollPos: scrollPos,
-        homeEnd: homeSection.offsetTop + homeSection.offsetHeight,
-        aboutStart: aboutSection.offsetTop,
-        aboutEnd: aboutSection.offsetTop + aboutSection.offsetHeight,
-        projectsStart: projectsSection.offsetTop,
-        projectsEnd: projectsSection.offsetTop + projectsSection.offsetHeight
-    }); 
+    // console.log({
+    //     scrollPos: scrollPos,
+    //     homeEnd: homeSection.offsetTop + homeSection.offsetHeight,
+    //     aboutStart: aboutSection.offsetTop,
+    //     aboutEnd: aboutSection.offsetTop + aboutSection.offsetHeight,
+    //     projectsStart: projectsSection.offsetTop,
+    //     projectsEnd: projectsSection.offsetTop + projectsSection.offsetHeight
+    // }); 
 
     // adds the highlight class to my menu items
     // dont want highlighting on mobile and pos when it appears
