@@ -559,6 +559,56 @@ body {
         font-size: 1rem;
     }
 
+    .about_heading {
+        font-size: 1.3rem;
+    }
+
+    .about_subheading {
+        font-size: 0.8rem;
+    }
+
+    .about_description {
+        font-size: 0.8rem;
+    }
+
+    .skills_heading {
+        font-size: 1.4rem;
+    }
+
+    .skills_list {
+        gap: 5px;
+    }
+    .skills_list span {
+        font-size: 0.9rem;
+        gap: 5px;
+    }
+
+    .projects h1 {
+        font-size: 1.8rem;
+    }
+
+    .projects h2 {
+        font-size: 1.2rem;
+    }
+
+    .projects p {
+        font-size: 0.9rem;
+    }
+
+    #footer_logo {
+        font-size: 1.2rem;
+    }
+
+    .footer_links a {
+        font-size: 0.9rem;
+        margin: 0 1rem;
+    }
+
+    .social_icons {
+        font-size: 0.9rem;
+        gap: 20px;
+    }
+
     .home_image {
         width: 200px;
         height: 200px;
@@ -567,6 +617,41 @@ body {
         object-position: 0 30%;
         border: 3px solid var(--border-color);
         box-shadow: 0 2px 25px var(--shadow-color);
+    }
+
+
+    .framer {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .footer_container {
+        flex-direction: row;
+    }
+
+    #footer_logo {
+        align-self: flex-start;
+    }
+
+    .social_icons {
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .social_media_wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .footer_links a {
+        margin: 0;
     }
 }
 
