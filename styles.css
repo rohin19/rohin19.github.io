@@ -635,23 +635,27 @@ body {
     .social_icons {
         flex-direction: row;
         align-items: flex-end;
-        gap: 10px;
-    }
-
-    .social_media_wrap {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5px;
+        gap: 12px;
     }
 
     .footer_links {
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 10px;
+        display: none; 
     }
 
-    .footer_links a {
-        margin: 0;
+    .social_media_wrap {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #footer_logo {
+        align-self: flex-start;
+    }
+
+    .social_icons {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
     }
 }
 
