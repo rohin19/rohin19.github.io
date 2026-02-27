@@ -2,6 +2,19 @@
     src: url(/fonts/KumbhSans-Regular.ttf);
     font-family: Kumbh Sans;
 }
+
+@font-face {
+    src: url(/fonts/Ethnocentric-Regular.otf);
+    font-family: Ethnocentric;
+    font-display: swap;
+}
+
+@keyframes nodus-trace {
+  0% { stroke-dasharray: 0 1000; opacity: 0; fill: transparent; }
+  50% { stroke-dasharray: 1000 0; opacity: 1; fill: transparent; }
+  100% { stroke-dasharray: 1000 0; opacity: 1; fill: currentColor; }
+}
+
 :root {
     --background-dark: #0a0a0a;
     --background-light: #1a1a1a;
@@ -56,6 +69,7 @@ body {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: bold;
+    font-family: Kumbh Sans, monospace;
 }
 .navbar_menu {
     padding: 0;
